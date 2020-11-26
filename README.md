@@ -1,10 +1,10 @@
 # golang-fiber-docker
 A sample API built using Golang Fiber Framework which is then containerised through Docker
 
-> docker build -t golangfiber .
-
-> docker run -d -p3000:3000 golangfiber
-
+```bash
+docker build -t golangfiber .
+docker run -d -p3000:3000 golangfiber
+```
 ##### Get all books
 `GET`
 > localhost:3000/all
